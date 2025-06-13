@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card {
+  height: 400px; /* Increase this value until your buttons are visible */
+  overflow: hidden; /* Keep this, but be aware it might still hide content if height isn't enough */
+  /* Other card styles */
+}
+
+.card img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  display: block;
+}
